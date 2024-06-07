@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <section class="section1" id="section1">
+            <nav id="navbar">
+                <input type="checkbox" name="" id="nav-toggle">
+                <div>
+                    <img class="logo" src="assets/img/Jacov-Logo.png" alt="">
+                </div>
+                <ul class="links">
+                    <li><a href="index.html">MOBILITY</a></li>
+                    <li><a href="data_covid.html" style="color: #Ff0000;">DATA COVID</a></li>
+                    <li><a href="#section3">ABOUT</a></li>
+                </ul>
+                <label for="nav-toggle" class="icon-burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </label>
+            </nav>
+
+            <div class="content">
+                <img src="assets/img/bg_atas.png" class="main-illustration" alt="">
+                <h1 data-aos="fade-up">DATA COVID</h1>
+                <h4>Peta Pemetaaan Suspek COVID-19 DKI Jakarta</h4>
+
+                <div class="containerdata">
+                    <div id="" class="select-boxdata">
+                        <select name="" id="select_bulan_data">
+                            <option value="November">November</option>
+                            <option value="Oktober">Oktober</option>
+                            <option value="September">September</option>
+                        </select>
+                    </div>
+                    <div id="" class="select-boxdata">
+                        <select name="" id="select_status_data">
+                            <option value="Positif">Positif</option>
+                            <option value="Sembuh">Sembuh</option>
+                            <option value="Meninggal">Meninggal</option>
+                            <option value="Dirawat">Dirawat</option>
+                        </select>
+                    </div>
+                    <button id="tampil_data">Tampilkan Data</button>
+                </div>
+                <iframe id="iframedata" class="iframedata" src="November_Positif.html" frameborder="0" width="100%" height="60%"></iframe>
+            </div>
+        </section>
+
+        <section class="section2">
+            <h3>GRAFIK TREND SUSPEK COVID-19 DKI JAKARTA</h3>
+            <div class="container2">
+                <div id="" class="select-box2">
+                    <select name="" id="select_bulan2">
+                        <option value="November">November</option>
+                        <option value="Oktober">Oktober</option>
+                        <option value="September">September</option>
+                    </select>
+                </div>
+                <div id="" class="select-box2">
+                    <select name="" id="select_status22">
+                        <option value="Plot-Positif">Positif</option>
+                        <option value="Plot-Meninggal">Meninggal</option>
+                        <option value="Plot-Sembuh">Sembuh</option>
+                        <option value="Plot-Dirawat">Dirawat</option>
+                    </select>
+                </div>
+                <button id="tampil_data2">Tampilkan Data</button>
+            </div>
+            <h4>PRESENTASE SUSPEK COVID-19 MENURUT DAERAH(UMUM)</h4>
+            <iframe class="iframe2" id="iframeplot" src="Plot-Dirawat-November.html" frameborder="0" width="100%" height="60%"></iframe>
+        </section>
+
+        <!--  javascript sources -->
+        <script type="text/javascript" src="assets/js/data_covid.js"></script>
+        
+        <script type="text/javascript" src="assets/js/plot.js"></script>
+    </body>
+</html>

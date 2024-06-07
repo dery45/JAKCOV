@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>chart created with amCharts | amCharts</title>
+		<meta name="description" content="chart created using amCharts live editor" />
+		
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>
+		
+
+		<!-- amCharts javascript code -->
+		<script type="text/javascript">
+			AmCharts.makeChart("chartdiv",
+				{
+					"type": "serial",
+					"categoryField": "ds",
+					"dataDateFormat": "DD-MM",
+					"startDuration": 1,
+					"accessibleTitle": "",
+					"fontFamily": "Lato",
+					"theme": "black",
+					"categoryAxis": {
+						"gridPosition": "start",
+						"title": "Tanggal"
+					},
+					"chartCursor": {
+						"enabled": true
+					},
+					"chartScrollbar": {
+						"enabled": true
+					},
+					"trendLines": [],
+					"graphs": [
+						{
+							"animationPlayed": true,
+							"bullet": "round",
+							"id": "AmGraph-4",
+							"lineColor": "#FF0000",
+							"tabIndex": 0,
+							"title": "Movement",
+							"type": "smoothedLine",
+							"valueField": "all_day_bing_tiles_visited_relative_change"
+						}
+					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"title": "Baseline"
+						}
+					],
+					"allLabels": [],
+					"balloon": {},
+					"legend": {
+						"enabled": true,
+						"useGraphSettings": true
+					},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 15,
+							"text": "Perubahaan Mobilitias Masyarakat  (2020)"
+						}
+					],
+					"dataProvider": [
+						{
+							"": "1",
+							"ds": "01-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.27343",
+							"all_day_ratio_single_tile_users": "0.2789",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "2",
+							"ds": "02-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.2752",
+							"all_day_ratio_single_tile_users": "0.28054",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "3",
+							"ds": "03-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.26139",
+							"all_day_ratio_single_tile_users": "0.28573",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "4",
+							"ds": "04-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.27527",
+							"all_day_ratio_single_tile_users": "0.30304",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "5",
+							"ds": "05-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.29828",
+							"all_day_ratio_single_tile_users": "0.27966",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "6",
+							"ds": "06-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.29711",
+							"all_day_ratio_single_tile_users": "0.28326",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "7",
+							"ds": "07-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.27927",
+							"all_day_ratio_single_tile_users": "0.2824",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "8",
+							"ds": "08-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.28122",
+							"all_day_ratio_single_tile_users": "0.28705",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "9",
+							"ds": "09-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.29295",
+							"all_day_ratio_single_tile_users": "0.28558",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "10",
+							"ds": "10-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.26665",
+							"all_day_ratio_single_tile_users": "0.29543",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "11",
+							"ds": "11-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.29004",
+							"all_day_ratio_single_tile_users": "0.313",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "12",
+							"ds": "12-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.28949",
+							"all_day_ratio_single_tile_users": "0.27876",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "13",
+							"ds": "13-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.31398",
+							"all_day_ratio_single_tile_users": "0.29126",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "14",
+							"ds": "14-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.27481",
+							"all_day_ratio_single_tile_users": "0.28324",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "15",
+							"ds": "15-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.2657",
+							"all_day_ratio_single_tile_users": "0.28126",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "16",
+							"ds": "16-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.2943",
+							"all_day_ratio_single_tile_users": "0.29533",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "17",
+							"ds": "17-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.25238",
+							"all_day_ratio_single_tile_users": "0.28416",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "18",
+							"ds": "18-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.25186",
+							"all_day_ratio_single_tile_users": "0.29618",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "19",
+							"ds": "19-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.29433",
+							"all_day_ratio_single_tile_users": "0.28507",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "20",
+							"ds": "20-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.30051",
+							"all_day_ratio_single_tile_users": "0.28823",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "21",
+							"ds": "21-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.28963",
+							"all_day_ratio_single_tile_users": "0.30064",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "22",
+							"ds": "22-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.26128",
+							"all_day_ratio_single_tile_users": "0.28205",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "23",
+							"ds": "23-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.24687",
+							"all_day_ratio_single_tile_users": "0.27131",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "24",
+							"ds": "24-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.2295",
+							"all_day_ratio_single_tile_users": "0.27333",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "25",
+							"ds": "25-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.25919",
+							"all_day_ratio_single_tile_users": "0.29931",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "26",
+							"ds": "26-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.2828",
+							"all_day_ratio_single_tile_users": "0.28324",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "27",
+							"ds": "27-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.24358",
+							"all_day_ratio_single_tile_users": "0.28287",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "28",
+							"ds": "28-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.20218",
+							"all_day_ratio_single_tile_users": "0.27228",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "29",
+							"ds": "29-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.25831",
+							"all_day_ratio_single_tile_users": "0.28923",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "30",
+							"ds": "30-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.28804",
+							"all_day_ratio_single_tile_users": "0.28317",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						},
+						{
+							"": "31",
+							"ds": "31-Oct",
+							"country": "IDN",
+							"polygon_source": "GADM",
+							"polygon_id": "IDN.7.4_1",
+							"polygon_name": "Jakarta Timur",
+							"all_day_bing_tiles_visited_relative_change": "-0.26487",
+							"all_day_ratio_single_tile_users": "0.2909",
+							"baseline_name": "full_february",
+							"baseline_type": "DAY_OF_WEEK"
+						}
+					]
+				}
+			);
+		</script>
+	</head>
+	<body>
+		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #222222;" ></div>
+	</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>chart created with amCharts | amCharts</title>
+		<meta name="description" content="chart created using amCharts live editor" />
+		
+		<!-- amCharts javascript sources -->
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/serial.js"></script>
+		<script type="text/javascript" src="https://www.amcharts.com/lib/3/themes/black.js"></script>
+		
+
+		<!-- amCharts javascript code -->
+		<script type="text/javascript">
+			AmCharts.makeChart("chartdiv",
+				{
+					"type": "serial",
+					"categoryField": "NAME_2",
+					"angle": 30,
+					"depth3D": 30,
+					"startDuration": 1,
+					"backgroundColor": "#252525",
+					"borderColor": "#252525",
+					"theme": "black",
+					"categoryAxis": {
+						"gridPosition": "start"
+					},
+					"trendLines": [],
+					"graphs": [
+						{
+							"balloonText": "Jumlah pasien positif: [[value]] Orang",
+							"fillAlphas": 1,
+							"fillColors": "#FF0000",
+							"id": "AmGraph-8",
+							"lineColor": "#FF0000",
+							"title": "Jumlah pasien positif",
+							"type": "column",
+							"valueField": "positif"
+						}
+					],
+					"guides": [],
+					"valueAxes": [
+						{
+							"id": "ValueAxis-1",
+							"stackType": "regular",
+							"title": "Jumlah Pasien"
+						}
+					],
+					"allLabels": [],
+					"balloon": {},
+					"legend": {
+						"enabled": true,
+						"useGraphSettings": true
+					},
+					"titles": [
+						{
+							"id": "Title-1",
+							"size": 15,
+							"text": "Presentase Jumlah Pasien Positif"
+						}
+					],
+					"dataProvider": [
+						{
+							"GID_2": "IDN.7.5_1",
+							"NAME_2": "Jakarta Utara",
+							"positif": "204856",
+							"dirawat": "6788",
+							"sembuh": "166419",
+							"meninggal.1": "5496"
+						},
+						{
+							"GID_2": "IDN.7.1_1",
+							"NAME_2": "Jakarta Barat",
+							"positif": "216390",
+							"dirawat": "12593",
+							"sembuh": "164598",
+							"meninggal.1": "6468"
+						},
+						{
+							"GID_2": "IDN.7.4_1",
+							"NAME_2": "Jakarta Timur",
+							"positif": "257558",
+							"dirawat": "13378",
+							"sembuh": "192948",
+							"meninggal.1": "6489"
+						},
+						{
+							"GID_2": "IDN.7.3_1",
+							"NAME_2": "Jakarta Selatan",
+							"positif": "191673",
+							"dirawat": "8700",
+							"sembuh": "145258",
+							"meninggal.1": "5587"
+						},
+						{
+							"GID_2": "IDN.7.2_1",
+							"NAME_2": "Jakarta Pusat",
+							"positif": "212664",
+							"dirawat": "7158",
+							"sembuh": "165397",
+							"meninggal.1": "7131"
+						}
+					]
+				}
+			);
+		</script>
+	</head>
+	<body>
+		<div id="chartdiv" style="width: 100%; height: 400px; background-color: #252525;" ></div>
+	</body>
+</html>
